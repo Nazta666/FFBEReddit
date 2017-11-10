@@ -358,7 +358,7 @@ flair.names = {
 	"icon362 ff 959": "(FF8) Rinoa",
 	"icon363 ff 962": "(FF8) Zell",
 	"icon100 ff 143": "(FF9) Zidane",
-	"icon101 ff 079": "(FF9) Vivi",
+	"icon101 ff 79": "(FF9) Vivi",
 	"icon102 ff 230": "(FF9) Garnet",
 	"icon103 ff 232": "(FF9) Freya",
 	"icon104 ff 9999": "(FF9) Quina",
