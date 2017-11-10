@@ -17,6 +17,12 @@ body {
 .clearfix, .cf {zoom:1;}
 .hide { display: none !important; }
 
+/* Will this work? */
+
+div#flair-selection-flair {
+    image-rendering: pixelated;
+    zoom: 200%;}
+
 .wrapper {
     width: 100%;
     max-width: 792px;
@@ -53,10 +59,6 @@ select, input[type=text], input[type=number] {
     padding: 3px 4px;
     border-radius: 3px;
 }
-
-/* Will this work? */
-
-element.style {image-rendering: pixelated; zoom: 200%;}
 
 .center {
     display: -webkit-flex;
