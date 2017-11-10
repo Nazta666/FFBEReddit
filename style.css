@@ -17,12 +17,6 @@ body {
 .clearfix, .cf {zoom:1;}
 .hide { display: none !important; }
 
-/* Will this work? */
-
-div#flair-selection-flair {
-    image-rendering: pixelated;
-    zoom: 200%;}
-
 .wrapper {
     width: 100%;
     max-width: 792px;
@@ -38,9 +32,6 @@ div#flair-selection-flair {
     border-radius: 5px;
     box-shadow: 0 0 0 1px #999, inset 0 0 0 1px #FFF;
     background: #ecf0f1;
-    border: 2px solid #D5D5E6;
-    outline: #000B2B outset 1px;
-    border-radius: 3px;
 }
 .wrapper.no-margin {
     margin-top: 0;
@@ -191,9 +182,6 @@ button:active, input[type=submit]:active {
     cursor: pointer;
     margin: 6px 2px;
     position: relative;
-    border: 1px solid #D5D5E6;
-    outline: rgba(0, 11, 43, 0.69) outset 1px;
-    border-radius: 2px;
 }
 .flair:not([class*='flair-']) {
     background: rgba(0,0,0,0.03);
