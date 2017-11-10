@@ -41,7 +41,7 @@ flair.load__by_id = function() {
 flair.by_id = {}
 flair.names = {
 /* [Everything] */
-	"icon001 all 2": "Name 2",
+	"icon001 all 375": "Rain",
 	"icon002 all 3": "Name 3",
 	"icon003 all 4": "Name 4",
 	"icon004 all 5": "Name 5",
