@@ -3,7 +3,7 @@ flair.sheet_filter = null;
 flair.sheet_filter_change = false;
 flair.typing_timeout = null;
 
-flair.subreddits = ['bravefrontier'];
+flair.subreddits = ['FFBraveExvius'];
 
 flair.updateFlairFilter = function(sheet_name) {
     if (sheet_name == 'ALL') {
@@ -104,7 +104,7 @@ flair.sendChoice = function() {
         }
     }
     
-    window.open('http://www.reddit.com/message/compose/?to=MimicBot&subject='+
+    window.open('https://www.reddit.com/message/compose?to=FFBEFlairBot&subject='+
         flair.current_choice+
         '&message='+flair_text+'%0A'+'%0A'+"Filler Text. This will allow you to send a message with no flair text.")
 }
