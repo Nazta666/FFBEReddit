@@ -54,6 +54,10 @@ select, input[type=text], input[type=number] {
     border-radius: 3px;
 }
 
+/* Will this work? */
+
+element.style {image-rendering: pixelated; zoom: 200%;}
+
 .center {
     display: -webkit-flex;
     display: flex;
