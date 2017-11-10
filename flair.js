@@ -294,7 +294,6 @@ flair.names = {
 	"icon253 all 252": "Name 252",
 	"icon254 all 253": "Name 253",
 	"icon255 all 254": "Name 254",
-	"icon256 all 255": "Name 255",
 	"icon257 all 256": "Name 256",
 	"icon258 all 257": "Name 257",
 	"icon259 all 258": "Name 258",
@@ -382,7 +381,6 @@ flair.names = {
 	"icon341 all 340": "Name 340",
 	"icon342 all 341": "Name 341",
 	"icon343 all 342": "Name 342",
-	"icon344 all 343": "Name 343",
 	"icon345 all 344": "Name 344",
 	"icon346 all 345": "Name 345",
 	"icon347 all 346": "Name 346",
@@ -414,4 +412,7 @@ flair.names = {
 	"icon373 all 372": "Grim Lord Sakura",
 	"icon374 all 373": "Illusionist Nichol",
 	"icon375 all 374": "Pirate Jake",
+/* [Final Fantasy 7] */
+	"icon256 ff7 255": "Cloud",
+	"icon344 ff7 343": "Sephiroth",
 };
