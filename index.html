@@ -61,10 +61,12 @@
             <input id="flair-filter-text" type="text" placeholder="Filter by Unit Name or Flair ID"
                 onkeyup="flair.updateFilter(this.value)" onchange="flair.updateFilter(this.value)" />
             <label for="flair-filter-sheet">
-                <span>Filter by FF Series:</span>
+                <span>Filter by Series:</span>
                 <select id="flair-filter-sheet" onchange="flair.updateFlairFilter(this.value)">
                     <option value="ALL">All Units</option>
                     <option value="ff7">Final Fantasy VII</option>
+                    <option value="glex">Global Exclusives</option>
+                    <option value="other">Others</option>
                 </select>
             </label>
         </div>
