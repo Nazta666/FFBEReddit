@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta charset="utf-8">
-    <title>/r/bravefrontier Flair Selector</title>
+    <title>/r/FFBraveExvius Flair Selector</title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- Stylesheets -->
@@ -61,16 +61,10 @@
             <input id="flair-filter-text" type="text" placeholder="Filter by Unit Name or Flair ID"
                 onkeyup="flair.updateFilter(this.value)" onchange="flair.updateFilter(this.value)" />
             <label for="flair-filter-sheet">
-                <span>Filter by category:</span>
+                <span>Filter by FF Series:</span>
                 <select id="flair-filter-sheet" onchange="flair.updateFlairFilter(this.value)">
                     <option value="ALL">All Units</option>
-                    <option value="rslegacy">RS Units - Legacy Batches</option>
-                    <option value="rs7star">RS Units - 7 Star Batches</option>
-                    <option value="rsoe">RS Units - Omni Evo Batches</option>
-                    <option value="freeall">Universal Non-RS Units</option>
-                    <option value="gl">Global Exclusive Units</option>
-                    <option value="jpeu">JP / EU Exclusive Units</option>
-                    <option value="alt">Alternate Unit Arts</option>
+                    <option value="ff7">Final Fantasy VII</option>
                 </select>
             </label>
         </div>
