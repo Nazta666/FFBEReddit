@@ -185,6 +185,9 @@ button:active, input[type=submit]:active {
     cursor: pointer;
     margin: 6px 2px;
     position: relative;
+    border: 1px solid #D5D5E6;
+    outline: rgba(0, 11, 43, 0.69) outset 1px;
+    border-radius: 2px;
 }
 .flair:not([class*='flair-']) {
     background: rgba(0,0,0,0.03);
