@@ -41,7 +41,6 @@ flair.load__by_id = function() {
 flair.by_id = {}
 flair.names = {
 /* [Everything] */
-	"icon000 all 1": "Name 1",
 	"icon001 all 2": "Name 2",
 	"icon002 all 3": "Name 3",
 	"icon003 all 4": "Name 4",
@@ -412,7 +411,7 @@ flair.names = {
 	"icon370 all 369": "Name 369",
 	"icon371 all 370": "Name 370",
 	"icon372 all 371": "Name 371",
-	"icon373 all 372": "Name 372",
-	"icon374 all 373": "Name 373",
-	"icon375 all 374": "Name 374",
+	"icon373 all 372": "Grim Lord Sakura",
+	"icon374 all 373": "Illusionist Nichol",
+	"icon375 all 374": "Pirate Jake",
 };
