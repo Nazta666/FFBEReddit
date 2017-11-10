@@ -104,9 +104,7 @@ flair.sendChoice = function() {
         }
     }
     
-    window.open('https://www.reddit.com/message/compose?to=FFBEFlairBot&subject='+
-        flair.current_choice+
-        '&message='+flair_text+'%0A'+'%0A'+"Filler Text. This will allow you to send a message with no flair text.")
+    window.open('https://www.reddit.com/message/compose?to=FFBEFlairBot&subject=flair&message='+flair.current_choice+','+flair_text)
 }
 
 flair.selectChoice = function(unit_id, key) {
